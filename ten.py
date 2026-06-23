@@ -77,3 +77,17 @@ for i in range(count):
     sum = sum + num
 print(f"sum is {sum}")
 print(f"average = {sum/count}")
+
+
+# fibonacci series
+
+count = int(input("Enter number of terms: "))
+
+a = 0
+b = 1
+for i in range(count):
+    print(a, end=" ")
+    c = b + a
+    a = b
+    b = c
+
